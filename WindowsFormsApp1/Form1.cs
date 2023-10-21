@@ -22,10 +22,11 @@ namespace WindowsFormsApp1
         {
             string kullanici_adi;
             kullanici_adi = txtMeb.Text;
+            
             if (kullanici_adi == "milliegitim @meb.k12.tr")
- 
+            {
                 MessageBox.Show("Kullanıcı sisteme kayıtlıdır.");
-
+            }
 
          else
             {
